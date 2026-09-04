@@ -1,5 +1,4 @@
 <div style="text-align: center; padding: 20px; border: 2px solid #2c3e50; border-radius: 8px; margin-bottom: 30px;">
-  <img src="image-57.png" alt="University Logo" width="220" style="margin-bottom: 15px;"/>
   <h1 style="color: #2c3e50; font-size: 24pt; margin: 10px 0;">K.R. MANGALAM UNIVERSITY</h1>
   <h3 style="color: #7f8c8d; font-size: 14pt; margin: 5px 0;">School of Engineering & Technology</h3>
   <hr style="border: 0; height: 1px; background: #34495e; margin: 15px 0;"/>
