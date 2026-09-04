@@ -14,15 +14,13 @@ import os
 def ensure_output_dir():
     """Ensure output directories exist."""
     os.makedirs("graphs", exist_ok=True)
-    os.makedirs("reports/graphs", exist_ok=True)
 
 
 def save_plot(filename):
-    """Save current plot to both graphs/ and reports/graphs/ directories."""
+    """Save current plot to graphs/ directory."""
     plt.savefig(f"graphs/{filename}", dpi=150, bbox_inches="tight")
-    plt.savefig(f"reports/graphs/{filename}", dpi=150, bbox_inches="tight")
     plt.close()
-    print(f"Saved: graphs/{filename} and reports/graphs/{filename}")
+    print(f"Saved: graphs/{filename}")
 
 
 def plot_sorting_time_comparison(df):
