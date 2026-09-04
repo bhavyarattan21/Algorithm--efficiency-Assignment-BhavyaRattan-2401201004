@@ -28,18 +28,19 @@ All algorithms are evaluated across 7 dataset scales ranging from small arrays (
 │   └── fibonacci.py        # Implementations: Recursive, Iterative, DP Memoization
 ├── analysis/
 │   ├── performance.py      # Wall-clock timing & tracemalloc memory profiling engine
-│   └── visualizations.py   # Customized Matplotlib chart rendering engine
-├── data/
-│   ├── sorting_performance.csv    # Raw benchmark dataset for sorting algorithms
-│   └── fibonacci_performance.csv  # Raw benchmark dataset for Fibonacci sequence
+│   ├── visualizations.py   # Customized Matplotlib chart rendering engine
+│   └── algo.py             # Algorithms helper module
+├── data_csv/
+│   ├── sorting.csv         # Raw benchmark dataset for sorting algorithms
+│   └── fibonacci_.csv      # Raw benchmark dataset for Fibonacci sequence
 ├── graphs/                 # Visual benchmark charts (PNG format)
-├── notebook/
-│   ├── run_analysis.py            # Automated execution script for full pipeline
-│   └── algorithm_efficiency_analysis.ipynb # Interactive Jupyter analysis notebook
+├── jpy_notebook/
+│   ├── run_analysis.py     # Automated execution script for full pipeline
+│   └── algorithm_analysis.ipynb # Interactive Jupyter analysis notebook
 ├── reports/
-│   ├── algorithm_performance_case_study.md   # Complete analytical report (Markdown)
-│   ├── algorithm_performance_case_study.pdf  # Final compiled report (PDF)
-│   └── graphs/                            # Report embedded charts
+│   ├── final_report.md     # Complete analytical report (Markdown)
+│   ├── final_report.pdf    # Final compiled report (PDF)
+│   └── graphs/             # Report embedded charts
 ├── requirements.txt        # Python dependency specifications
 └── README.md               # Project documentation
 ```
@@ -68,13 +69,13 @@ pip install -r requirements.txt
 ### 2. Run Benchmarks & Regenerate All Assets
 Execute the master analysis pipeline to generate fresh CSV datasets and visual charts:
 ```bash
-python notebook/run_analysis.py
+python jpy_notebook/run_analysis.py
 ```
 
 ### 3. Interactive Analysis
 Launch the Jupyter notebook to inspect algorithm logic step-by-step:
 ```bash
-jupyter notebook notebook/algorithm_efficiency_analysis.ipynb
+jupyter notebook jpy_notebook/algorithm_analysis.ipynb
 ```
 
 ---
@@ -94,5 +95,5 @@ jupyter notebook notebook/algorithm_efficiency_analysis.ipynb
 ---
 
 ## 📄 Final Reports
-- **Markdown Report:** [`reports/algorithm_performance_case_study.md`](reports/algorithm_performance_case_study.md)
-- **PDF Deliverable:** [`reports/algorithm_performance_case_study.pdf`](reports/algorithm_performance_case_study.pdf)
+- **Markdown Report:** [`reports/final_report.md`](reports/final_report.md)
+- **PDF Deliverable:** [`reports/final_report.pdf`](reports/final_report.pdf)

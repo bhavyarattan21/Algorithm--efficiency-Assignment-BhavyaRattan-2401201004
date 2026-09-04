@@ -107,9 +107,9 @@ def run_sorting_analysis():
     print(pivot_time.to_string())
 
     # Save to CSV
-    os.makedirs("data", exist_ok=True)
-    df.to_csv("data/sorting_performance.csv", index=False)
-    print("\nData saved to: data/sorting_performance.csv")
+    os.makedirs("data_csv", exist_ok=True)
+    df.to_csv("data_csv/sorting.csv", index=False)
+    print("\nData saved to: data_csv/sorting.csv")
 
     return df
 
@@ -127,9 +127,9 @@ def run_fibonacci_analysis():
     print(df.to_string(index=False))
 
     # Save to CSV
-    os.makedirs("data", exist_ok=True)
-    df.to_csv("data/fibonacci_performance.csv", index=False)
-    print("\nData saved to: data/fibonacci_performance.csv")
+    os.makedirs("data_csv", exist_ok=True)
+    df.to_csv("data_csv/fibonacci_.csv", index=False)
+    print("\nData saved to: data_csv/fibonacci_.csv")
 
     return df
 
@@ -191,9 +191,9 @@ def main():
 
     print_header("ANALYSIS COMPLETE")
     print("Check the following directories for outputs:")
-    print("  - data/       : CSV files with raw performance data")
+    print("  - data_csv/   : CSV files with raw performance data")
     print("  - graphs/     : PNG files with visualizations")
-    print("  - reports/    : Report files (algorithm_performance_case_study.md/pdf)")
+    print("  - reports/    : Report files (final_report.md/pdf)")
 
 
 if __name__ == "__main__":
