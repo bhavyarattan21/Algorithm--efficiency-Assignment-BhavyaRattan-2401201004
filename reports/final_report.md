@@ -1,29 +1,54 @@
-<div style="text-align: center; padding: 20px; border: 2px solid #2c3e50; border-radius: 8px; margin-bottom: 30px;">
-  <h1 style="color: #2c3e50; font-size: 24pt; margin: 10px 0;">K.R. MANGALAM UNIVERSITY</h1>
-  <h3 style="color: #7f8c8d; font-size: 14pt; margin: 5px 0;">School of Engineering & Technology</h3>
-  <hr style="border: 0; height: 1px; background: #34495e; margin: 15px 0;"/>
-  <h2 style="color: #2980b9; font-size: 18pt; margin: 15px 0;">EMPIRICAL CASE STUDY: ALGORITHM EFFICIENCY & BENCHMARK ANALYSIS</h2>
-  <p style="font-size: 12pt; color: #34495e;">Course Code: <strong>ENCA301 — Design & Analysis of Algorithms</strong> (2025–2026)</p>
+<div style="text-align: center;">
+<img src="image-57.png" alt="K.R. Mangalam University Logo" width="250"/>
 </div>
 
-<br/>
+****
 
-<table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
-  <tr style="background-color: #f8f9fa;">
-    <td style="width: 50%; padding: 15px; vertical-align: top; border: 1px solid #e9ecef;">
-      <h4 style="margin: 0 0 10px 0; color: #2c3e50;">STUDENT CREDENTIALS</h4>
-      <p style="margin: 4px 0;"><strong>Name:</strong> Bhavya Rattan</p>
-      <p style="margin: 4px 0;"><strong>Roll Number:</strong> 2401201004</p>
-      <p style="margin: 4px 0;"><strong>Program:</strong> BCA (AI & Data Science)</p>
-      <p style="margin: 4px 0;"><strong>Section:</strong> B | <strong>Semester:</strong> 5</p>
-    </td>
-    <td style="width: 50%; padding: 15px; vertical-align: top; border: 1px solid #e9ecef;">
-      <h4 style="margin: 0 0 10px 0; color: #2c3e50;">FACULTY EVALUATOR</h4>
-      <p style="margin: 4px 0;"><strong>Evaluator:</strong> Dr. Aarti Sangwan</p>
-      <p style="margin: 4px 0;"><strong>Designation:</strong> Assistant Professor</p>
-      <p style="margin: 4px 0;"><strong>Department:</strong> Computer Science & Engineering</p>
-    </td>
-  </tr>
+<div style="text-align: center; font-size: 26px; font-weight: bold;">
+K.R. Mangalam University
+</div>
+
+<div style="text-align: center; font-size: 18px;">
+School of Engineering & Technology
+</div>
+
+<div style="text-align: center; font-size: 20px; font-weight: bold;">
+DESIGN AND ANALYSIS OF ALGORITHMS LAB MANUAL
+</div>
+
+<div style="text-align: center; font-size: 16px;">
+Program: BCA (AI & DS)
+</div>
+
+<div style="text-align: center; font-size: 16px;">
+Course Code - ENCA301 (2025-2026)
+</div>
+
+<br>
+
+<table style="width: 100%; border: none;">
+<tr>
+<td style="width: 50%; border: none; vertical-align: top; font-size: 15px;">
+
+**Submitted by:**
+
+Name: Bhavya Rattan
+
+Roll Number: 2401201004
+
+Course: BCA (AI & DS) - Section B
+
+</td>
+<td style="width: 50%; border: none; vertical-align: top; text-align: right; font-size: 15px;">
+
+**Submitted To:**
+
+Dr. Aarti Sangwan
+
+Assistant Professor
+
+</td>
+</tr>
 </table>
 
 <div style="page-break-before: always;"></div>
