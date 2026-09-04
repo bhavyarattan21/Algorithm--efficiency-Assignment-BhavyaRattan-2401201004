@@ -236,7 +236,7 @@ ALGORITHM QuickSort(A, low, high)
 
 ## 5.1 Sorting Execution Time Curve Analysis
 
-![Sorting Time Comparison](graphs/sorting_time_comparison.png)
+![Sorting Time Comparison](sorting_time_comparison.png)
 
 ### Key Observations
 1. **Quadratic Scaling Divergence:** On logarithmic vertical scales, Bubble Sort and Insertion Sort display steep quadratic slopes. At $n=10000$ reverse-sorted input, Bubble Sort requires **23.82 seconds**, compared to **0.050 seconds** for Quick Sort — a **476× performance ratio**.
@@ -247,7 +247,7 @@ ALGORITHM QuickSort(A, low, high)
 
 ## 5.2 Sorting Memory Profile Analysis
 
-![Sorting Memory Comparison](graphs/sorting_memory_comparison.png)
+![Sorting Memory Comparison](sorting_memory_comparison.png)
 
 ### Key Observations
 1. **Merge Sort Overhead:** Merge Sort allocates $O(n)$ temporary auxiliary arrays during the merge phase, taking approximately **273 KB** at $n=10000$.
@@ -257,7 +257,7 @@ ALGORITHM QuickSort(A, low, high)
 
 ## 5.3 Comparison Density Analysis
 
-![Sorting Comparisons](graphs/sorting_comparisons.png)
+![Sorting Comparisons](sorting_comparisons.png)
 
 ### Key Observations
 - At $n=10000$, quadratic algorithms perform $\approx 49,995,000$ comparisons ($\frac{n(n-1)}{2}$), whereas Merge Sort and Quick Sort require only $\approx 101,000$ to $106,000$ comparisons.
@@ -268,7 +268,7 @@ ALGORITHM QuickSort(A, low, high)
 
 | Time Comparison | Memory Allocation |
 |:---:|:---:|
-| ![Fib Time](graphs/fibonacci_time_comparison.png) | ![Fib Memory](graphs/fibonacci_memory_comparison.png) |
+| ![Fib Time](fibonacci_time_comparison.png) | ![Fib Memory](fibonacci_memory_comparison.png) |
 
 ### Key Observations
 - **Recursive Bottleneck:** At $n=40$, naive recursion requires **27.02 seconds** due to duplicate tree evaluations, whereas Iterative and DP execute in **0.000006s** and **0.000021s** respectively.
