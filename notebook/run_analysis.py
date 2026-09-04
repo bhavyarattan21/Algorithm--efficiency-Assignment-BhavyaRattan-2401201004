@@ -193,7 +193,7 @@ def main():
     print("Check the following directories for outputs:")
     print("  - data/       : CSV files with raw performance data")
     print("  - graphs/     : PNG files with visualizations")
-    print("  - reports/    : Final report markdown file")
+    print("  - reports/    : Report files (algorithm_performance_case_study.md/pdf)")
 
 
 if __name__ == "__main__":
